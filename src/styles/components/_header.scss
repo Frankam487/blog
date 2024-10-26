@@ -1,0 +1,28 @@
+.header {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    box-shadow: 1px 0px 7px 0px $black;
+    padding: 42px 0;
+
+    .second {
+
+        ul {
+            display: flex;
+
+            li {
+                margin: 0 10px;
+                font-family: $font3;
+                font-weight: 500;
+
+                a {
+                    color: $semiBlack;
+                    transition: .2s ease;
+                    &:hover {
+                        color: $black;
+
+                    }
+                }
+            }
+        }
+    }
+}
