@@ -1,0 +1,88 @@
+.services {
+
+  background: rgba(31, 26, 26, 0.199);
+  padding: 120px 0;
+
+  .title {
+    @include childCenter;
+    margin: 70px 0;
+
+    span {
+      background: $blueCeil;
+      height: 22px;
+      width: 22px;
+      margin: 0 25px;
+      border-radius: 50%;
+    }
+
+    h2 {
+      padding: 20px 70px;
+      border: 4px solid $black;
+      font-size: 2.24rem;
+    }
+  }
+
+  .card-container {
+    @include childCenter;
+    flex-wrap: wrap;
+
+    .card {
+      background: $white;
+      width: 25%;
+      margin: 10px;
+      box-shadow: 1px 7px 10px -5px $black;
+      transition: .4s ease;
+
+      &:hover {
+        transform: rotate(5deg);
+      }
+
+      h3 {
+        margin: 21px;
+        color: $blue;
+      }
+
+      .footer {
+        @include childrenCenter(space-around);
+        background: $whiteCasse;
+        color: #fff;
+        padding: 0 52px 0 0;
+
+        .un {
+          display: flex;
+          width: 100%;
+
+          h2 {
+            background-color: $blue;
+            padding: 10px;
+          }
+
+          span h2 {
+            display: flex;
+            padding: 20px 0;
+          }
+
+          span {
+            padding: 0px 12px;
+            background: $black;
+          }
+        }
+
+        .deux {
+          color: $blue;
+        }
+      }
+
+      padding: 0;
+
+      i,
+      h3 {
+        @include childCenter;
+      }
+
+      i {
+        font-size: 3rem;
+      }
+    }
+  }
+}

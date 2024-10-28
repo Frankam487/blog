@@ -15,6 +15,22 @@ const Work = () => {
             <button>Lire plus</button>
           </div>
         </div>
+        <div className="card">
+          <img src="../../public/imgs/features-01.jpg" alt="" />
+          <div className="quality">
+            <h2>Time</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex exercitationem animi numquam. Rerum, fugit at.</p>
+            <button>Lire plus</button>
+          </div>
+        </div>
+        <div className="card">
+          <img src="../../public/imgs/features-01.jpg" alt="" />
+          <div className="quality">
+            <h2>Passion</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex exercitationem animi numquam. Rerum, fugit at.</p>
+            <button>Lire plus</button>
+          </div>
+        </div>
       </div>
     </div>
   );
